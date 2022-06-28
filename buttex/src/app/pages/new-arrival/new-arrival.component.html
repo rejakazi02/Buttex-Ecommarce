@@ -1,0 +1,68 @@
+<!-- <div  *ngFor="let banner of banners | slice: 0: 1; let i=index">
+    <img [src]="banner.image" alt="" srcset="">
+
+</div> -->
+<div class="newArrival-corner">
+<a href="#"><h4>Home</h4></a>
+ <p>></p> 
+ <p>Festive Collection</p>
+</div>
+
+<div  *ngFor="let banner of banners | slice: 0: 1; let i=index"  [id]="getOfferId1(i)" class="newArrival-banner">
+    <img [src]="banner.image" alt="" srcset="">
+    
+</div>
+
+<div class="newArrivalOffer-grid">
+    <div  *ngFor="let offer of offers | slice: 0: 4; let i=index"  [id]="getOfferId1(i)">
+        <img [src]="offer.image" alt="" srcset="">
+        
+    </div>
+   
+  </div>
+
+
+
+
+<h3 style="text-align: center; padding-top:20px">INFANTS</h3>
+<hr style="width: 85vw;align-items: center;margin: auto;">
+<br>
+<!-- <app-banner-card [infant]="infant" *ngFor="let infant of infants"></app-banner-card> -->
+
+
+
+<div class="infant-grid">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 0: 5; let i=index"  [id]="getInfantId1(i)"></app-banner-card>
+</div>
+<br>
+
+<div class="womenOffer-grid">
+    <div  *ngFor="let womenOffer of womenOffers | slice: 0: 3; let i=index"  [id]="getWomenOfferId(i)">
+        <img [src]="womenOffer.image" alt="" srcset="">
+      <div>
+        <h4 style="text-align: center;padding-bottom: 40px;">{{womenOffer.title}}</h4>
+      </div>  
+        
+    </div>
+   
+  </div>
+
+  <h4 style="text-align: center;">WOMEN FOOTWEAR</h4>
+<hr style="width: 85vw;align-items: center;margin: auto;">
+
+<div class="infant-grid">
+  <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 5: 10; let i=index"  [id]="getInfantId1(i)"></app-banner-card>
+</div>
+
+<br><br>
+
+
+<div class="newArrivalOffer2-grid">
+  <div  *ngFor="let offer of offers | slice: 4: 6; let i=index"  [id]="getOfferId2(i)">
+      <img [src]="offer.image" alt="" srcset="">
+      
+  </div>
+ 
+</div>
+
+<br> <br>

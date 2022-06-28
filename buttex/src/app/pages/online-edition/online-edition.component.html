@@ -1,0 +1,42 @@
+<div class="online-container">
+
+  <div class="online-sidebar-container">
+    <div class="sidenav">
+      <a href="#about">New Arrival</a>
+      <a href="#services">Online Edition</a>
+      <a href="#clients">Cast & Crew</a>
+      <a href="#contact">Women & Men</a>
+      <!-- <button class="dropdown-btn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div> -->
+      <a href="#contact">Boys & Girls</a>
+      <a href="#contact">Fragrances</a>
+      <a href="#contact">Makeup</a>
+    </div>
+
+  </div>
+
+  <div class="main">
+<div class="product-grid">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 10: 13; let i=index" [id]="getProdId(i)"></app-banner-card>
+  </div>
+
+<div class="product-grid">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 13: 16; let i=index" [id]="getProdId(i)"></app-banner-card>
+  </div>
+
+<div class="product-grid">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 16: 19; let i=index" [id]="getProdId(i)"></app-banner-card>
+  </div>
+
+<div class="product-grid">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 19: 22; let i=index" [id]="getProdId(i)"></app-banner-card>
+  </div>
+</div>
+
+</div>
