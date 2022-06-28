@@ -1,0 +1,12 @@
+.catMainDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 79px;
+  gap: 60px;
+}
+
+
+.catCardDiv img{
+  height: auto;
+  max-width: 100%;
+}
