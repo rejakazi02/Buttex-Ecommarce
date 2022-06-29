@@ -725,10 +725,12 @@
 /*** category-card ***/
 .category-card{
     display: block;
-    width: 100%;
+    width: 100% !important;
     height: auto;
     cursor: pointer;
     box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px;
 }
 .category-image{
    display: block;

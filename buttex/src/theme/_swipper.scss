@@ -54,7 +54,7 @@
   .mySwiper:hover ::ng-deep.swiper-button-next,.mySwiper:hover ::ng-deep.swiper-button-prev{
     visibility: visible;
     opacity: 1;
-  } 
+  }
   ::ng-deep.swiper-button-next:after,
   ::ng-deep.swiper-button-prev:after{
     content: "\f061";
@@ -79,7 +79,7 @@
     transition: all 0.3s linear;
   }
 ::ng-deep.small-carousel .mySwiper {
-    padding: 0px 30px;
+    padding: 0px 0px;
 }
 ::ng-deep.small-carousel ::ng-deep.swiper-button-next{
     right: 0px;
