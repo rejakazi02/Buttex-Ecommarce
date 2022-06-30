@@ -4,6 +4,7 @@ header{
     width: 100%;
     height: auto;
     background-color: #FFFFFF;
+    // margin-bottom: 140px;
 }
 .header-discount{
   text-align: center;
@@ -414,6 +415,7 @@ header{
     justify-content: space-between;
     height: 50px;
     background-color: #F3F3F3;
+
 }
 .sb-1,.sb-2,.sb-3{
     display: flex;
@@ -505,20 +507,34 @@ nav{
     z-index: 99;
     width: 100%;
     background-color: $icon-default-color;
+    // margin-bottom: 149px;
+    padding-bottom: 10px;
+    // padding-bottom: 21px;
 
 
   }
   nav .wrapper{
     // position: relative;
     max-width: 1300px;
-    padding: 0px 30px;
-    height: 70px;
-    line-height: 70px;
+    padding: 12px 30px;
+    height: 100px;
+    line-height: 50px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
+    flex-direction: column;
   }
+
+  .logoimg{
+    width: 50px;
+    height: 36px;
+
+
+  }
+
+
+
   .wrapper .logo a{
     color: grey;
     font-size: 15px;
@@ -597,7 +613,7 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 60px;
     // box-shadow: 0 6px 10px rgba(0,0,0,0.15);
   }
   .mega-box .content .row{
@@ -669,7 +685,7 @@ nav{
       max-width: 350px;
       top: 0;
       left: -100%;
-      background-color: $heading-color;
+      background-color: white;
       display: block;
       padding: 50px 10px;
       line-height: 50px;
