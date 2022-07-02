@@ -13,7 +13,7 @@
   .infant:hover{
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+
   }
   .infant-image{
     display: block;
@@ -62,17 +62,35 @@
     z-index: 1;
     transition: all 0.4s linear;
    }
+
+
    .infant:hover .icons{
      bottom: 15px;
      visibility: visible;
      opacity: 1;
+   }
+   .infant:hover .infant-button{
+    //  bottom: 15px;
+     visibility: visible;
+     opacity: 1;
+    //  margin-bottom: 30px;
+   }
+   .infant:hover .wish{
+    //  bottom: 15px;
+     visibility: visible;
+     opacity: 1;
+    //  margin-bottom: 30px;
+   }
+
+   .infant-button{
+    visibility: hidden;
    }
   //  .infant-button{
   //   width: 100px;
   //   height: 40px;
   //   background-color: #119744;
   //  }
-   
+
   //  .infant:hover .infant-button{
   //   background-color: #119744;
   //   color: #ffffff;
@@ -126,7 +144,7 @@
   .rating-area ul li:last-child{
     margin: 0px;
   }
-  
+
   .rating-area ul li i{
     color: $color-yellow;
     font-size: 13px;
@@ -164,11 +182,11 @@
   }
   .infant-price{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 12px;
+    /* justify-content: center; */
+    gap: 19px;
+    margin-bottom: 29px;
 
   }
   .prevPrice{
@@ -181,13 +199,14 @@
   }
   .currPrice{
     flex-wrap: nowrap;
-    width: 90%;
-    height: 30px;
+    // width: 90%;
+    // height: 30px;
     color: red;
     font-weight: 500;
     font-family: $font-en-primary;
     font-style: normal;
     font-style: 40%;
+    left: 10px;
   }
   // .currPrice small{
   //   font-weight: 400;
@@ -216,7 +235,7 @@
   .infant-body button i{
     font-size: 15px;
   }
- 
+
 
   .priceDis{
     flex-wrap: nowrap;
@@ -232,6 +251,10 @@
   // }
 .infant-one-price-section{
   display: flex;
+    left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
 }
 
 .discount-percentage{
@@ -240,7 +263,7 @@
   background-color: red;
   // padding: 2%;
   color: white;
-  
+
 }
 .discount-percentage p{
   font-size: 70%;
@@ -271,7 +294,7 @@
 .womenFootwear:hover{
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
+
 }
 .womenFootwear-image{
   display: block;
@@ -303,13 +326,17 @@
   top: 0px;
 }
 .wish{
-  color: $color-border;
+  // color: $color-border;
+  color: #d82323;
   font-size: 19px;
   display: inline-block;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  // position: absolute;
+  top: 9px;
+  right: 10px;
+  // visibility: hidden;
 }
+
+
 
 .icons{
   visibility: hidden;
@@ -330,7 +357,7 @@
 //   height: 40px;
 //   background-color: #119744;
 //  }
- 
+
 //  .womenFootwear:hover .womenFootwear-button{
 //   background-color: #119744;
 //   color: #ffffff;
@@ -438,13 +465,13 @@
 }
 .currPrice{
   flex-wrap: nowrap;
-  width: 90%;
+  // width: 90%;
   margin-top: 10px;
   color: red;
   font-weight: 500;
   font-family: $font-en-primary;
   font-style: 40%;
- 
+
 }
 // .currPrice small{
 //   font-weight: 400;
@@ -483,7 +510,7 @@
 //   .womenFootwear-body button i{
 //     display: none;
 //   }
- 
+
 // }
 
 .priceDis{
@@ -493,7 +520,7 @@
   text-decoration: line-through;
   padding:5%;
   font-size: 90%;
-  
+
 }
 
 .womenFootwear-one-price-section{
