@@ -17,9 +17,10 @@
   <div class="womenOffer-grid2">
     <div  *ngFor="let womenOffer of womenOffers | slice: 0: 3; let i=index" [id]="getWomenId(i)">
         <img [src]="womenOffer.image" alt="" srcset="">
-      <div>
+        <a href="" class="womenOfferTitle">{{womenOffer.title}} </a>
+      <!-- <div class="womenOfferTitle">
         <h4 style="text-align: center;padding-bottom: 40px;">{{womenOffer.title}}</h4>
-      </div>
+      </div> -->
 
     </div>
 

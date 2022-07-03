@@ -36,8 +36,7 @@
 }
 
 .newArrivalOffer2-grid {
-    width: 80vw;
-    margin: auto;
+    margin: 30px 75px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -66,13 +65,13 @@
 
  .womenOffer-grid2 {
    display: grid;
-   margin: auto;
-   width: 80vw;
+   margin: 30px 75px;
    grid-template-rows: 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    gap: 20px;
    height: 100%;
    padding-top: 30px;
+   position: relative;
 }
 
 #item-2 {
@@ -145,6 +144,22 @@
 }
 
 
+.womenOfferTitle{
+
+  position: absolute;
+  color: black;
+  border: 3px solid black;
+  margin-left: 40px;
+  margin-top: -82px;
+  padding: 20px 30px;
+  background-color: white;
+}
+.womenOfferTitle:hover{
+color: white;
+background: rgba(0, 0, 0, 0.5);
+border: none;
+  // background-color: transparent;
+}
 @media only screen and (max-width: 600px) {
   .infant-grid4 {
      display: grid;
