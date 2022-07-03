@@ -180,6 +180,15 @@ border: none;
   margin: 115px 75px;
 }
 
+.newArrivalOffer3-grid {
+  margin: 30px 75px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+  margin-bottom: 100px;
+}
 
 
 

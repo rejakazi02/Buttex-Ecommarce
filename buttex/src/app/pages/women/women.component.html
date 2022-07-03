@@ -61,3 +61,10 @@
       [id]="getInfantId1(i)"></app-banner-card>
   </div>
 </div>
+
+
+<div class="newArrivalOffer3-grid">
+  <div *ngFor="let offer of offers | slice: 10:11; let i = index" [id]="getOfferId1(i)">
+    <img [src]="offer.image" alt="" srcset="" />
+  </div>
+</div>

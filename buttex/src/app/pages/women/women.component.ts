@@ -121,6 +121,12 @@ export class WomenComponent implements OnInit {
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer16.jpg',
+    },
+    {
+      _id:11,
+      routerLink:'#',
+      title:'dummy text',
+      image:'../../../assets/images/products/womenOffer/nw1.webp',
     }
   ]
 
