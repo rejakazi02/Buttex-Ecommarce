@@ -1,9 +1,16 @@
+
+<div class="newArrival-corner">
+  <a href="#"><h4>Home</h4></a>
+   <p>></p>
+   <p>Festive Collection</p>
+  </div>
+
 <div class="newArrivalOffer2-grid">
     <div  *ngFor="let offer of offers | slice: 0: 2; let i=index" [id]="getOfferId1(i)">
         <img [src]="offer.image" alt="" srcset="">
-        
+
     </div>
-   
+
   </div>
 
 
@@ -12,24 +19,24 @@
         <img [src]="womenOffer.image" alt="" srcset="">
       <div>
         <h4 style="text-align: center;padding-bottom: 40px;">{{womenOffer.title}}</h4>
-      </div>  
-        
+      </div>
+
     </div>
-   
+
   </div>
 
 
 
   <!-- <h4 style="text-align: center;">FRAGRANCE</h4>
   <hr style="width: 85vw;align-items: center;">
-  
+
   <div class="infant-grid4">
     <app-banner-card [product]="product" *ngFor="let product of products | slice: 0: 5; let i=index"  [id]="getFragId(i)"></app-banner-card>
   </div>
-  
+
   <br><br> -->
 
-<!-- 
+<!--
 <div  *ngFor="let banner of banners | slice: 1: 2; let i=index" class="newArrival-banner">
     <img [src]="banner.image" alt="" srcset="">
 
