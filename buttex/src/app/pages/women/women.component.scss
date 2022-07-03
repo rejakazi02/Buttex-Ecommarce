@@ -73,7 +73,22 @@
    padding-top: 30px;
    position: relative;
 }
+ .womenOffer22-grid2 {
+   display: grid;
+   margin: 30px 75px;
+  //  grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+   height: 100%;
+   padding-top: 30px;
+   position: relative;
+}
 
+.womenOffersSubDiv{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
 #item-2 {
 
    grid-row-start: 1;
@@ -147,12 +162,13 @@
 .womenOfferTitle{
 
   position: absolute;
-  color: black;
-  border: 3px solid black;
-  margin-left: 40px;
-  margin-top: -82px;
-  padding: 20px 30px;
-  background-color: white;
+    color: black;
+    border: 3px solid black;
+    /* margin-left: 40px; */
+    /* margin-top: -82px; */
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 26px;
 }
 .womenOfferTitle:hover{
 color: white;
@@ -160,6 +176,14 @@ background: rgba(0, 0, 0, 0.5);
 border: none;
   // background-color: transparent;
 }
+.trendyDiv{
+  margin: 115px 75px;
+}
+
+
+
+
+
 @media only screen and (max-width: 600px) {
   .infant-grid4 {
      display: grid;
