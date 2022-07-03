@@ -20,7 +20,7 @@
         <span>New</span>
      </div>
     <!---wish-->
-    <span class="wish"><i class="fa fa-heart"></i></span>
+    <!-- <span class="wish"><i class="fa fa-heart"></i></span> -->
   </div>
   <div class="infant-body">
     <!-- <div class="rating-area">
@@ -38,19 +38,19 @@
       <span class="prevPrice"><p>{{ infant.desc }}</p></span>
 
       <div class="infant-one-price-section">
-      <span class="currPrice"><p>{{ infant.price }}</p> </span>
+      <span class="currPrice"><p>BDT:{{ infant.price }}&#x9f3;</p> </span>
       <!-- <span class="priceDis"><p>{{ infant.priceDis }}</p></span> -->
-      <span class="discount-percentage"><p>25% OFF</p></span>
+      <!-- <span class="discount-percentage"><p>25% OFF</p></span> -->
     </div>
 
       <!-- <button class="infant-button"><i class="fa-solid fa-basket-shopping"></i> Add To Bag</button> -->
 
     </div>
-    <div class="size">
-      <p>
-        S
+    <div class="ProductsSizeDiv">
+      <p *ngFor="let item of infant.productSize">
+       {{item}}
     </p>
-    <br>
+    <!-- <br>
       <p>
         M
     </p>
@@ -61,10 +61,12 @@
     <br>
       <p>
         XL
-    </p>
+    </p> -->
   </div>
+   <div class="addBtnDiv">
     <button class="infant-button">Add To Bag</button>
-    <span class="wish"><i class="fa fa-heart"></i></span>
+    <span class="wishs"><i class="fa-regular fa-heart"></i></span>
+   </div>
 
   </div>
   </div>

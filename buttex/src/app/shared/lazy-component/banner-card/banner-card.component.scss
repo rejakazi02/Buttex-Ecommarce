@@ -70,21 +70,25 @@
      opacity: 1;
    }
    .infant:hover .infant-button{
-    //  bottom: 15px;
+
      visibility: visible;
      opacity: 1;
-    //  margin-bottom: 30px;
+     background-color: black;
+     color: #fff;
+
    }
    .infant:hover .wish{
-    //  bottom: 15px;
+
      visibility: visible;
      opacity: 1;
-    //  margin-bottom: 30px;
+
    }
 
    .infant-button{
     visibility: hidden;
    }
+
+
   //  .infant-button{
   //   width: 100px;
   //   height: 40px;
@@ -470,7 +474,8 @@
   color: red;
   font-weight: 500;
   font-family: $font-en-primary;
-  font-style: 40%;
+  font-size: 20px;
+  margin: 14px 33px;
 
 }
 // .currPrice small{
@@ -539,23 +544,41 @@ color: white;
 font-size: 70%;
 }
 
-.size{
+.ProductsSizeDiv{
   margin-top: -10%;
   width: 10vw;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: start;
+  gap: 3px;
+
 }
-.size p{
-  font-size: 60%;
+
+.ProductsSizeDiv p{
+  font-size: 12px;
   width: 2vw;
-  padding: 2%;
+  padding: 3%;
   background-color: lightgrey;
   border-radius: 50%;
-  // margin: 10px;
+
 }
 
+.addBtnDiv{
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+}
 
+.wishs{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  visibility: hidden;
+  font-size: 20px;
+}
 
+.infant:hover .wishs{
 
+   visibility: visible;
+   opacity: 1;
 
+ }

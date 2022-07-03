@@ -12,17 +12,17 @@ export class NewArrivalComponent implements OnInit {
   ngOnInit(): void {
   }
 
- 
+
   banners:any[] = [
     {
       _id:1,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/bannersItems/banner1.jpg',
-      
-      
+
+
     }
-  ] 
+  ]
 
   offers:any[] = [
     {
@@ -30,66 +30,66 @@ export class NewArrivalComponent implements OnInit {
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer1.jpg',
-      
-    }, 
+
+    },
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer2.jpg',
-      
+
     },
     {
       _id:3,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer3.jpg',
-      
-    }, 
+
+    },
     {
       _id:4,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer4.jpg',
-      
-    }, 
+
+    },
     {
       _id:5,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer5.jpg',
-      
-    }, 
+
+    },
     {
       _id:6,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer6.jpg',
-      
+
     }
-  ] 
-  
+  ]
+
   womenOffers:any[] = [
     {
       _id:1,
       routerLink:'#',
       title:'2 PCS UNSTICHED SHIRT & TROUSER',
       image:'./assets/images/products/womenOffer/womenOffer1.jpg',
-      
-    }, 
+
+    },
     {
       _id:2,
       routerLink:'#',
       title:'2 PCS UNSTICHED SHIRT & DUPATTA',
       image:'./assets/images/products/womenOffer/womenOffer2.jpg',
-      
+
     },
     {
       _id:3,
       routerLink:'#',
       title:'3 PCS UNSTICHED',
       image:'./assets/images/products/womenOffer/womenOffer3.jpg',
-      
+
     }
   ]
 
@@ -100,10 +100,11 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant1.jpeg',
-      
+      productSize: ["8", "12", "18"]
+
 
     },
     {
@@ -112,9 +113,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant2.jpeg',
+      productSize: ["8", "12"]
     },
     {
       _id:3,
@@ -122,9 +124,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant3.jpeg',
+      productSize: ["8", "12", "18"]
     },
     {
       _id:4,
@@ -132,9 +135,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant4.jpeg',
+      productSize: ["8", "12", "18"]
     },
     {
       _id:5,
@@ -142,9 +146,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant5.jpeg',
+      productSize: ["8", "12", "18"]
     },
     {
       _id:6,
@@ -152,9 +157,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear1.jpeg',
+      productSize: ["06", "07", "08", "09", "10", "11"]
     },
     {
       _id:7,
@@ -162,9 +168,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear2.jpeg',
+      productSize: [ "07", "08", "09", "10"]
     },
     {
       _id:8,
@@ -172,9 +179,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/womenFootwear3.jpeg',
+      productSize: ["08", "10"]
     },
     {
       _id:9,
@@ -182,9 +190,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
-      priceDis:'bdt 4500',
+      price:' 4500',
+      priceDis:' 4500',
       image:'./assets/images/products/infantProducts/womenFootwear4.jpeg',
+      productSize: ["06", "07", "08", "09", "10", "11"]
     },
     {
       _id:10,
@@ -192,12 +201,13 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
-      priceDis:'bdt 4500',
+      price:' 4500',
+      priceDis:' 4500',
       image:'./assets/images/products/infantProducts/womenFootwear5.jpeg',
+      productSize: ["06", "07", "08", "09", "10"]
     }
   ]
-  
+
   womenFootwears:any[] =[
     {
       _id:1,
@@ -205,10 +215,10 @@ export class NewArrivalComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/womenFootwear/womenFootwear1.jpeg',
-      
+
     },
     {
       _id:2,
@@ -262,7 +272,7 @@ export class NewArrivalComponent implements OnInit {
       price:'bdt 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/01.jpg',
-      
+
 
     },
     {
@@ -399,7 +409,7 @@ export class NewArrivalComponent implements OnInit {
       return 'item-3';
     }
 
-  } 
+  }
 
   getInfantId1(index: number): string {
     if(index === 0) {
@@ -428,7 +438,7 @@ export class NewArrivalComponent implements OnInit {
       return 'item-8'
     }
   }
-  
+
   getWomenOfferId(index: number): string {
     if(index === 0) {
       return 'item-9';
@@ -438,7 +448,7 @@ export class NewArrivalComponent implements OnInit {
       return 'item-11'
     } else  {
       return 'item-7'
-    } 
+    }
   }
 
   getWomenFootId(index: number): string {
@@ -450,7 +460,7 @@ export class NewArrivalComponent implements OnInit {
       return 'item-14'
     } else  {
       return 'item-15'
-    } 
+    }
   }
 
   getOfferId2(index: number): string {
@@ -458,7 +468,7 @@ export class NewArrivalComponent implements OnInit {
       return 'item-17';
     } else  {
       return 'item-18';
-    } 
+    }
 
   }
 }
