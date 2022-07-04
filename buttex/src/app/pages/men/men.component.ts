@@ -60,14 +60,14 @@ export class MenComponent implements OnInit {
       _id:1,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer13.jpeg',
+      image:'../../../assets/images/products/men/of1.webp',
 
     },
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer14.jpeg',
+      image:'../../../assets/images/products/men/of2.webp',
 
     },
     {
@@ -127,44 +127,44 @@ export class MenComponent implements OnInit {
       _id:11,
       routerLink:'#',
       title:'dummy text',
-      image:'../../../assets/images/products/womenOffer/nw1.webp',
+      image:'../../../assets/images/products/men/of8.webp',
     }
   ]
 
-  womenOffers:any[] = [
+  menOffers:any[] = [
     {
       _id:1,
       routerLink:'#',
-      title:'2 PCS UNSTICHED SHIRT & TROUSER',
-      image:'./assets/images/products/womenOffer/womenOffer1.jpg',
+      title:'UNSTITCHED',
+      image:'../../../assets/images/products/men/of3.webp',
 
     },
     {
       _id:2,
       routerLink:'#',
-      title:'2 PCS UNSTICHED SHIRT & DUPATTA',
-      image:'./assets/images/products/womenOffer/womenOffer2.jpg',
+      title:'FOOTWEAR',
+      image:'../../../assets/images/products/men/of4.webp',
 
     },
     {
       _id:3,
       routerLink:'#',
-      title:'3 PCS UNSTICHED',
-      image:'./assets/images/products/womenOffer/womenOffer3.jpg',
+      title:'PRINCE COAT',
+      image:'../../../assets/images/products/men/of5.webp',
 
     },
     {
       _id:4,
       routerLink:'#',
-      title:'KURTI',
-      image:'../../../assets/images/products/womenOffer/OFF1.webp',
+      title:'WAISTCOAT',
+      image:'../../../assets/images/products/men/of6.webp',
 
     },
     {
       _id:5,
       routerLink:'#',
-      title:'FOOTWEAR',
-      image:'../../../assets/images/products/womenOffer/OFF2.webp',
+      title:'WEDDING',
+      image:'../../../assets/images/products/men/of7.webp',
 
     }
   ]
@@ -175,11 +175,11 @@ export class MenComponent implements OnInit {
       title:"Kurti",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
+      desc:'CLASSIQUE POUR HOMME | ADNAN SIDDIQUI',
       price:' 4500',
       priceDis:' 4500',
-      image:'../../../assets/images/products/womenOffer/22.1.webp',
-      productSize: ["S", "M", "L", "XL", "XL","XS"]
+      image:'../../../assets/images/products/men/p1.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
 
 
     },
@@ -188,54 +188,54 @@ export class MenComponent implements OnInit {
       title:"Stich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
+      desc:'SUPER STAR POUR HOMME | HUMAYUN SAEED',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.2.webp',
-      productSize: ["S", "M", "L", "XL", "XL","XS"]
+      image:'../../../assets/images/products/men/p2.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:3,
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'GREY BLENDED KURTA | JCK-43129',
+      desc:'PARIS Pour Homme',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.3.webp',
-      productSize: ["S", "M", "L", "XL", "XL","XS"]
+      image:'../../../assets/images/products/men/p3.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:4,
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
+      desc:'LONDON Pour Homme',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.4.webp',
-      productSize: ["S", "M", "L", "XL", "XL","XS"]
+      image:'../../../assets/images/products/men/p4.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:5,
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'MOSCOW Pour Homme',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.5.webp',
-      productSize: ["S", "M", "L", "XL", "XL","XS"]
+      image:'../../../assets/images/products/men/p5.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:6,
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'SEA GREEN BLENDED KURTA | JJK-43137',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.6.webp',
+      image:'../../../assets/images/products/men/p6.webp',
       productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -243,10 +243,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'BROWN COTTON KURTA | JJK-S-32589',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.7.webp',
+      image:'../../../assets/images/products/men/p7.webp',
       productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -254,10 +254,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'BLACK COTTON KURTA | JJK-45013',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.8.webp',
+      image:'../../../assets/images/products/men/p8.webp',
       productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -265,10 +265,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'GREY POLYESTER VISCOSE KURTA | JJK-45012',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.9.webp',
+      image:'../../../assets/images/products/men/p9.webp',
       productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -276,10 +276,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
+      desc:'WHITE SCHIFFLI KURTA | JJK-A-43080',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/22.10.webp',
+      image:'../../../assets/images/products/men/p10.webp',
       productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -287,10 +287,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'BEAUTIFUL by Shaniera Akram BEAUTIFUL by Shaniera Akram',
+      desc:'NAVY BLUE BLENDED MEN CAP | JJ-CAP-0038',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/ff.1.webp',
+      image:'../../../assets/images/products/men/p11.webp',
       // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -298,10 +298,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'JANAN POUR FEMME',
+      desc:'BROWN BLENDED MEN CAP | JJ-CAP-0037',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/ff2.webp',
+      image:'../../../assets/images/products/men/p12.webp',
       // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -309,10 +309,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'BLOOM',
+      desc:'LIGHT GREY BLENDED MEN CAP | JJ-CAP-0036',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/ff3.webp',
+      image:'../../../assets/images/products/men/p13.webp',
       // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -320,10 +320,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'J. POUR FEMME',
+      desc:'NAVY BLUE BLENDED MEN CAP | JJ-CAP-0006-R11',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/ff4.webp',
+      image:'../../../assets/images/products/men/p14.webp',
       // productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
@@ -331,10 +331,10 @@ export class MenComponent implements OnInit {
       title:"unstich",
       subTitle:"Shop Now",
       routerLink:'#',
-      desc:'WASIM AKRAM 502 FOR HER',
+      desc:'NAVY BLUE BLENDED MEN CAP | JJ-CAP-0005-R47',
       price:' 4500',
       priceDis:'bdt 4500',
-      image:'../../../assets/images/products/womenOffer/ff.5.webp',
+      image:'../../../assets/images/products/men/p15.webp',
       // productSize: ["S", "M", "L", "XL", "XL","XS"]
     }
   ]

@@ -6,25 +6,25 @@
    <h4>Home</h4>
  </a>
  <p>></p>
- <p>Festive Collection</p>
+ <p>MEN COLLECTION</p>
 </div>
 
-<div class="newArrivalOffer2-grid">
+<div class="menArrivalOffer-grid1">
  <div *ngFor="let offer of offers | slice: 0:2; let i = index" [id]="getOfferId1(i)">
    <img [src]="offer.image" alt="" srcset="" />
  </div>
 </div>
 
-<div class="womenOffer-grid2">
- <div *ngFor="let womenOffer of womenOffers | slice: 0:3; let i = index" [id]="getWomenId(i)"
-   class="womenOffersSubDiv">
-   <img [src]="womenOffer.image" alt="" srcset="" />
-   <a href="" class="womenOfferTitle">{{ womenOffer.title }} </a>
+<div class="menOffer-grid1">
+ <div *ngFor="let menOffer of menOffers | slice: 0:3; let i = index" [id]="getWomenId(i)"
+   class="menOffersSubDiv">
+   <img [src]="menOffer.image" alt="" srcset="" />
+   <a href="" class="menOfferTitle">{{ menOffer.title }} </a>
  </div>
 </div>
 
 <div class="trendyDiv">
- <h4 style="text-align: center">TRENDY KURTIS</h4>
+ <h4 style="text-align: center">AROMATICS</h4>
  <hr style="width: 85vw; align-items: center" />
  <br />
  <br />
@@ -35,7 +35,7 @@
 </div>
 
 <div class="trendyDiv">
- <h4 style="text-align: center">ACCESSORIES</h4>
+ <h4 style="text-align: center">MEN'S TRADITIONAL</h4>
  <hr style="width: 85vw; align-items: center" />
  <br />
  <br />
@@ -45,11 +45,11 @@
  </div>
 </div>
 
-<div class="womenOffer22-grid2">
- <div *ngFor="let womenOffer of womenOffers | slice: 3:5; let i = index" [id]="getWomenId(i)"
-   class="womenOffersSubDiv">
-   <img [src]="womenOffer.image" alt="" srcset="" />
-   <a href="" class="womenOfferTitle">{{ womenOffer.title }} </a>
+<div class="menOffer-grid2">
+ <div *ngFor="let menOffer of menOffers | slice: 3:5; let i = index" [id]="getWomenId(i)"
+   class="menOffersSubDiv">
+   <img [src]="menOffer.image" alt="" srcset="" />
+   <a href="" class="menOfferTitle">{{ menOffer.title }} </a>
  </div>
 </div>
 
@@ -66,7 +66,7 @@
 </div>
 
 
-<div class="newArrivalOffer3-grid">
+<div class="menArrivalOffer-grid3">
  <div *ngFor="let offer of offers | slice: 10:11; let i = index" [id]="getOfferId1(i)">
    <img [src]="offer.image" alt="" srcset="" />
  </div>
