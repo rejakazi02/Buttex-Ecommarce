@@ -1,13 +1,34 @@
 
 
-    <div class="catMainDiv">
+
+<div class="newArrival-corner">
+  <a href="#">
+    <h4>Home</h4>
+  </a>
+  <p>></p>
+  <p>CATALOGUE</p>
+ </div>
+
+ <div class="catMainDiv">
+  <div *ngFor="let offer of catOffers | slice: 0:5; let i = index" [id]="getOfferId1(i)">
+
       <div class="catCardDiv">
         <div>
-          <img src="../../../assets/images/products/catalogue/cat1.webp" alt="">
+          <img [src]="offer.image" alt="" srcset="" />
         </div>
-        <p>Apparel</p>
-        <h1>J. KIDS WEDDING AND FORMAL COLLECTION</h1>
+        <p>{{offer.title}}</p>
+        <h1>{{offer.productName}}</h1>
       </div>
+
+ </div>
+
+
+
+
+
+
+
+<!--
       <div class="catCardDiv">
         <div>
           <img src="../../../assets/images/products/catalogue/cat2.webp" alt="">
@@ -36,4 +57,4 @@
         <p>Apparel</p>
         <h1>J. KIDS WEDDING AND FORMAL COLLECTION</h1>
       </div>
-    </div>
+    </div> -->

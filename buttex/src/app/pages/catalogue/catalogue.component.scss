@@ -1,3 +1,30 @@
+
+.newArrival-corner{
+  display: flex;
+  padding: 10px 40px 30px 40px;
+  // font-family: $font-en-primary;
+  font-weight: 200;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.newArrival-corner h4{
+  // padding: 5px;
+  color: grey;
+  // text-decoration: underline;
+}
+.newArrival-corner h4:hover{
+  // padding: 5px;
+  color: black;
+  text-decoration: underline;
+}
+.newArrival-corner p{
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .catMainDiv {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
