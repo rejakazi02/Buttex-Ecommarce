@@ -12,6 +12,7 @@ export class MenComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   banners:any[] = [
     {
       _id:1,
@@ -59,14 +60,14 @@ export class MenComponent implements OnInit {
       _id:1,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/boy1.jpeg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer13.jpeg',
 
     },
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/boy2.jpeg',
+      image:'./assets/images/products/newArrivalOffer/newArrivalOffer14.jpeg',
 
     },
     {
@@ -121,29 +122,49 @@ export class MenComponent implements OnInit {
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer16.jpg',
+    },
+    {
+      _id:11,
+      routerLink:'#',
+      title:'dummy text',
+      image:'../../../assets/images/products/womenOffer/nw1.webp',
     }
   ]
 
-  menOffers:any[] = [
+  womenOffers:any[] = [
     {
       _id:1,
       routerLink:'#',
       title:'2 PCS UNSTICHED SHIRT & TROUSER',
-      image:'./assets/images/products/womenOffer/boy3.jpeg',
+      image:'./assets/images/products/womenOffer/womenOffer1.jpg',
 
     },
     {
       _id:2,
       routerLink:'#',
       title:'2 PCS UNSTICHED SHIRT & DUPATTA',
-      image:'./assets/images/products/womenOffer/boy4.jpeg',
+      image:'./assets/images/products/womenOffer/womenOffer2.jpg',
 
     },
     {
       _id:3,
       routerLink:'#',
       title:'3 PCS UNSTICHED',
-      image:'./assets/images/products/womenOffer/boy5.jpeg',
+      image:'./assets/images/products/womenOffer/womenOffer3.jpg',
+
+    },
+    {
+      _id:4,
+      routerLink:'#',
+      title:'KURTI',
+      image:'../../../assets/images/products/womenOffer/OFF1.webp',
+
+    },
+    {
+      _id:5,
+      routerLink:'#',
+      title:'FOOTWEAR',
+      image:'../../../assets/images/products/womenOffer/OFF2.webp',
 
     }
   ]
@@ -155,9 +176,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY POLYESTER VISCOSE KAMEEZ SHALWAR | JJKS-A-44018',
-      price:'bdt 4500',
-      priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/f1.gif',
+      price:' 4500',
+      priceDis:' 4500',
+      image:'../../../assets/images/products/womenOffer/22.1.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
 
 
     },
@@ -167,9 +189,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'WHITE BLENDED KAMEEZ SHALWAR | JCKS-45009',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/f2.gif',
+      image:'../../../assets/images/products/womenOffer/22.2.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:3,
@@ -177,9 +200,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'GREY BLENDED KURTA | JCK-43129',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/f3.gif',
+      image:'../../../assets/images/products/womenOffer/22.3.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:4,
@@ -187,9 +211,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'CREAM POLYESTER VISCOSE KAMEEZ SHALWAR | JCKS-43126',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/f4.gif',
+      image:'../../../assets/images/products/womenOffer/22.4.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:5,
@@ -197,9 +222,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/f5.gif',
+      image:'../../../assets/images/products/womenOffer/22.5.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:6,
@@ -207,9 +233,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/womenFootwear1.jpeg',
+      image:'../../../assets/images/products/womenOffer/22.6.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:7,
@@ -217,9 +244,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/womenFootwear2.jpeg',
+      image:'../../../assets/images/products/womenOffer/22.7.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:8,
@@ -227,9 +255,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/womenFootwear3.jpeg',
+      image:'../../../assets/images/products/womenOffer/22.8.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:9,
@@ -237,9 +266,10 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/womenFootwear4.jpeg',
+      image:'../../../assets/images/products/womenOffer/22.9.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
     },
     {
       _id:10,
@@ -247,9 +277,65 @@ export class MenComponent implements OnInit {
       subTitle:"Shop Now",
       routerLink:'#',
       desc:'PEACH BLENDED KAMEEZ SHALWAR | JJIKS-S-41164',
-      price:'bdt 4500',
+      price:' 4500',
       priceDis:'bdt 4500',
-      image:'./assets/images/products/infantProducts/womenFootwear5.jpeg',
+      image:'../../../assets/images/products/womenOffer/22.10.webp',
+      productSize: ["S", "M", "L", "XL", "XL","XS"]
+    },
+    {
+      _id:11,
+      title:"unstich",
+      subTitle:"Shop Now",
+      routerLink:'#',
+      desc:'BEAUTIFUL by Shaniera Akram BEAUTIFUL by Shaniera Akram',
+      price:' 4500',
+      priceDis:'bdt 4500',
+      image:'../../../assets/images/products/womenOffer/ff.1.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
+    },
+    {
+      _id:12,
+      title:"unstich",
+      subTitle:"Shop Now",
+      routerLink:'#',
+      desc:'JANAN POUR FEMME',
+      price:' 4500',
+      priceDis:'bdt 4500',
+      image:'../../../assets/images/products/womenOffer/ff2.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
+    },
+    {
+      _id:13,
+      title:"unstich",
+      subTitle:"Shop Now",
+      routerLink:'#',
+      desc:'BLOOM',
+      price:' 4500',
+      priceDis:'bdt 4500',
+      image:'../../../assets/images/products/womenOffer/ff3.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
+    },
+    {
+      _id:14,
+      title:"unstich",
+      subTitle:"Shop Now",
+      routerLink:'#',
+      desc:'J. POUR FEMME',
+      price:' 4500',
+      priceDis:'bdt 4500',
+      image:'../../../assets/images/products/womenOffer/ff4.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
+    },
+    {
+      _id:15,
+      title:"unstich",
+      subTitle:"Shop Now",
+      routerLink:'#',
+      desc:'WASIM AKRAM 502 FOR HER',
+      price:' 4500',
+      priceDis:'bdt 4500',
+      image:'../../../assets/images/products/womenOffer/ff.5.webp',
+      // productSize: ["S", "M", "L", "XL", "XL","XS"]
     }
   ]
 
@@ -510,5 +596,4 @@ export class MenComponent implements OnInit {
   //     return 'item-9'
   //   }
   // }
-
 }
