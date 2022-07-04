@@ -8,31 +8,35 @@
   <p>BOYS & GIRLS COLLECTION</p>
  </div>
 
-<div class="newArrivalOffer2-grid">
-    <div  *ngFor="let offer of offers | slice: 0: 2; let i=index"  [id]="getOfferId(i)">
-        <img [src]="offer.image" alt="" srcset="">
-
-    </div>
-
+ <div class="menArrivalOffer-grid1">
+  <div *ngFor="let offer of offers | slice: 0:2; let i = index" [id]="getOfferId1(i)">
+    <img [src]="offer.image" alt="" srcset="" />
   </div>
+ </div>
 
-  <br> <br>
-
-  <h4 style="text-align: center;">TODDLERS</h4>
-<hr style="width: 80vw;align-items: center;margin: auto;">
-
-<div class="infant-grid">
-  <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 0: 5; let i=index"  [id]="getInfantId(i)"></app-banner-card>
-</div>
-
-<br><br>
-
-<div class="newArrivalOffer2-grid">
-    <div  *ngFor="let offer of offers | slice: 10: 12; let i=index"  [id]="getOfferId(i)">
-        <img [src]="offer.image" alt="" srcset="">
-
-    </div>
-
+ <!-- <div class="menOffer-grid1">
+  <div *ngFor="let menOffer of menOffers | slice: 0:3; let i = index" [id]="getWomenId(i)"
+    class="menOffersSubDiv">
+    <img [src]="menOffer.image" alt="" srcset="" />
+    <a href="" class="menOfferTitle">{{ menOffer.title }} </a>
   </div>
+ </div> -->
 
-  <br> <br>
+ <div class="trendyDiv">
+  <h4 style="text-align: center">AROMATICS</h4>
+  <hr style="width: 85vw; align-items: center" />
+  <br />
+  <br />
+  <div class="infant-grid4">
+    <app-banner-card [infant]="infant" *ngFor="let infant of infants | slice: 0:5; let i = index"
+      [id]="getInfantId1(i)"></app-banner-card>
+  </div>
+ </div>
+
+
+
+ <div class="menArrivalOffer-grid1">
+  <div *ngFor="let offer of offers | slice: 2:4; let i = index" [id]="getOfferId1(i)">
+    <img [src]="offer.image" alt="" srcset="" />
+  </div>
+ </div>
