@@ -1,5 +1,30 @@
 
-<p>makeup works!</p>
-<p>makeup works!</p>
-<p>makeup works!</p>
-<p>makeup works!</p>
+
+
+<div class="fraMainDiv">
+
+  <div class="sideNavMenu">
+    ddd
+  </div>
+  <div class="productDivMain">
+   <div class="fraCardDiv">
+    <div class="fraCard" *ngFor="let item of fraProducts">
+      <p class="wishicon"><i class="fa-regular fa-heart"></i></p>
+      <img class="proImg" [src]="item.image" alt="">
+       <a href="" class="quickshop">Quick Shop</a>
+     <div class="proDtails">
+
+      <p class="proName">{{item.desc}}</p>
+      <h3>BDT:{{item.price}} &#x9f3;</h3>
+      <a class="pAddtobag" href="">Add to Bag</a>
+     </div>
+    </div>
+    <div class="fraCard">
+      1
+    </div>
+    <div class="fraCard">
+      1
+    </div>
+   </div>
+  </div>
+</div>
