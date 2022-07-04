@@ -1,3 +1,91 @@
-.tt{
-  margin: 800PX;
+
+
+
+
+.fraMainDiv{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 40px 0px;
+}
+
+
+.sideNavMenu{
+  background-color: yellow;
+}
+
+.productDivMain{
+  // background-color: rebeccapurple;
+  margin: 20px 20px;
+  padding: 50px;
+}
+
+.fraCardDiv{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+ .fraCard:hover{
+visibility: visible;
+}
+.fraCard{
+  // height: 200px;
+  // background-color: white;
+ box-shadow: -1px 5px 36px 19px rgb(0 0 0 / 20%);
+//  position: relative;
+ color: black;
+ visibility: hidden;
+}
+
+.wishicon{
+  // right: 0;
+  float: right;
+    padding: 22px 26px;
+    font-size: 20px;
+    z-index: 999999999;
+    // position: absolute;
+    visibility: visible;
+
+}
+
+.proImg{
+  max-height: 400px;
+  visibility: visible;
+  margin: 20px 20px;
+  width: 90%;
+  margin-top: -22px;
+  top: 0;
+}
+.quickshop{
+  text-align: center;
+  margin-bottom: 11%;
+  margin-top: -10%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #006bb4;
+}
+
+.quickshop:hover{
+  color: black;
+}
+
+.proDtails{
+  margin: 0px 15px;
+  visibility: visible;
+}
+
+.pAddtobag{
+  margin-top: 40px;
+  padding: 13px 11px;
+  border: 1px solid;
+  width: 40%;
+  margin-bottom: 10%;
+  line-height: 18px;
+  font-size: 18px;
+  visibility: visible;
+}
+
+.pAddtobag:hover{
+  background-color: black;
+  color: white;
 }
