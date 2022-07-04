@@ -17,87 +17,87 @@ export class BoysGirlsComponent implements OnInit {
       _id:1,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer1.jpg',
-      
-    }, 
+      image:'../../../assets/images/products/kids/of1.webp',
+
+    },
     {
       _id:2,
       routerLink:'#',
       title:'dummy text',
-      image:'./assets/images/products/newArrivalOffer/newArrivalOffer2.jpg',
-      
+      image:'../../../assets/images/products/kids/of2.webp',
+
     },
     {
       _id:3,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer3.jpg',
-      
-    }, 
+
+    },
     {
       _id:4,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer4.jpg',
-      
-    }, 
+
+    },
     {
       _id:5,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer5.jpg',
-      
-    }, 
+
+    },
     {
       _id:6,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer6.jpg',
-      
-    }, 
+
+    },
     {
       _id:7,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer7.jpeg',
-      
-    }, 
+
+    },
     {
       _id:8,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer8.jpeg',
-      
-    }, 
+
+    },
     {
       _id:9,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer9.jpeg',
-      
-    }, 
+
+    },
     {
       _id:10,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer10.jpeg',
-      
-    }, 
+
+    },
     {
       _id:11,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer11.jpeg',
-      
-    }, 
+
+    },
     {
       _id:12,
       routerLink:'#',
       title:'dummy text',
       image:'./assets/images/products/newArrivalOffer/newArrivalOffer12.jpeg',
-      
+
     }
-  ] 
+  ]
 
   infants:any[] =[
     {
@@ -109,7 +109,7 @@ export class BoysGirlsComponent implements OnInit {
       price:'bdt 4500',
       priceDis:'bdt 4500',
       image:'./assets/images/products/infantProducts/infant1.jpeg',
-      
+
 
     },
     {
@@ -209,7 +209,7 @@ export class BoysGirlsComponent implements OnInit {
       return 'item-0';
     } else  {
       return 'item-1';
-    } 
+    }
   }
 
   getInfantId(index: number): string {
@@ -226,5 +226,5 @@ export class BoysGirlsComponent implements OnInit {
     }
   }
 
-  
+
 }

@@ -1,11 +1,19 @@
 
 
+<div class="newArrival-corner">
+  <a href="#">
+    <h4>Home</h4>
+  </a>
+  <p>></p>
+  <p>BOYS & GIRLS COLLECTION</p>
+ </div>
+
 <div class="newArrivalOffer2-grid">
-    <div  *ngFor="let offer of offers | slice: 8: 10; let i=index"  [id]="getOfferId(i)">
+    <div  *ngFor="let offer of offers | slice: 0: 2; let i=index"  [id]="getOfferId(i)">
         <img [src]="offer.image" alt="" srcset="">
-        
+
     </div>
-   
+
   </div>
 
   <br> <br>
@@ -22,9 +30,9 @@
 <div class="newArrivalOffer2-grid">
     <div  *ngFor="let offer of offers | slice: 10: 12; let i=index"  [id]="getOfferId(i)">
         <img [src]="offer.image" alt="" srcset="">
-        
+
     </div>
-   
+
   </div>
 
   <br> <br>
