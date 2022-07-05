@@ -4,7 +4,7 @@
 
 .fraMainDiv{
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1.5fr 5fr;
   margin: 10px 0px;
 }
 
@@ -81,9 +81,9 @@ visibility: visible;
   margin-top: 14px;
   padding: 13px 11px;
   border: 1px solid;
-  width: 40%;
+  width: 50%;
   margin-bottom: 10%;
-
+text-align: center;
   font-size: 18px;
   visibility: visible;
 }
