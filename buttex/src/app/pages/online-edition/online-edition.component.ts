@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 
 export class OnlineEditionComponent implements OnInit {
 
+  panelOpenState = false;
 
+  Category: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
 
   constructor() { }
 

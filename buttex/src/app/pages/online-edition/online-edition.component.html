@@ -1,45 +1,42 @@
 <div class="online-container">
-
   <div class="online-sidebar-container">
     <div class="sidenav">
-      <a href="#about">New Arrival</a>
-      <a href="#services">Online Edition</a>
-      <a href="#clients">Cast & Crew</a>
-      <a href="#contact">Women & Men</a>
+      <h2>SHOPPING OPTIONS</h2>
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> Category </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
 
-      <a href="#contact">Boys & Girls</a>
-      <a href="#contact">Fragrances</a>
-      <a href="#contact">Makeup</a>
+          <mat-radio-button class="example-radio-button" *ngFor="let Category of Category" [value]="Category">
+            {{ Category }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
     </div>
-
   </div>
 
   <div class="main">
-
-
-
-  <div class="productDivMain">
-    <div class="fraCardDiv">
-     <div class="fraCard" *ngFor="let item of onlineEditions">
-       <p class="wishicon"><i class="fa-regular fa-heart"></i></p>
-       <img class="proImg" [src]="item.image" alt="">
-        <a href="" class="quickshop">Quick Shop</a>
-      <div class="proDtails">
-
-       <p class="proName">{{item.desc}}</p>
-       <h3>BDT:{{item.price}} &#x9f3;</h3>
-       <div class="productSizeDiv" >
-         <p class="proSize" *ngFor="let item of item.productSize">{{item}}</p>
-
+    <div class="productDivMain">
+      <div class="fraCardDiv">
+        <div class="fraCard" *ngFor="let item of onlineEditions">
+          <p class="wishicon"><i class="fa-regular fa-heart"></i></p>
+          <img class="proImg" [src]="item.image" alt="" />
+          <a href="" class="quickshop">Quick Shop</a>
+          <div class="proDtails">
+            <p class="proName">{{ item.desc }}</p>
+            <h3>BDT:{{ item.price }} &#x9f3;</h3>
+            <div class="productSizeDiv">
+              <p class="proSize" *ngFor="let item of item.productSize">
+                {{ item }}
+              </p>
+            </div>
+            <a class="pAddtobag" href="">Add to Bag</a>
+          </div>
+        </div>
       </div>
-      <a class="pAddtobag" href="">Add to Bag</a>
     </div>
-     </div>
-
-    </div>
-   </div>
-
-
-</div>
-
+  </div>
 </div>

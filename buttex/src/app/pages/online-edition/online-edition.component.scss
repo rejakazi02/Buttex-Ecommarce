@@ -1,3 +1,30 @@
+
+
+// .mat-form-field + .mat-form-field {
+//   margin-left: 8px;
+// }
+
+// .example-radio-group {
+//   display: flex;
+//   flex-direction: column;
+//   margin: 15px 0;
+//   align-items: flex-start;
+// }
+
+.example-radio-button {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.matPanelTitle{
+  display: flex !important;
+  // align-items: flex-start !important;
+  margin-left: -16px !important;
+}
+
+
+
 .product-grid {
     display: grid;
 
@@ -84,7 +111,7 @@
 
   .sidenav {
    height: 500px;
-   width: 200px;
+   width: 245px;
    position: fixed;
    z-index: 1;
    top: 100;
@@ -93,6 +120,7 @@
    // background-color: #111;
    // overflow-x: hidden;
    padding-top: 120px;
+   margin-left: 10px;
  }
 
  /* Style the sidenav links and the dropdown button */
