@@ -153,6 +153,23 @@
       </mat-accordion>
 
 
+      <!-- FIT TYPE section  -->
+
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> FIT TYPE</mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <mat-radio-button class="example-radio-button" *ngFor="let FITTYPE of FITTYPEs" [value]="FITTYPEs">
+            {{ FITTYPE }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
     </div>
   </div>
 

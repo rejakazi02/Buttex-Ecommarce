@@ -21,6 +21,7 @@ export class OnlineEditionComponent implements OnInit {
   COLLECTIONs: string[] = ['Special Edition Collection', 'Winter Collection 2020', 'The Eid Edit 21', 'The Eid Edit 21 - II', 'Mid Summer 21', 'Winter Collection 21', 'Eid Luxe 22', 'Eid Trends 22'];
   FABRICs: string[] = ['Chiffon', 'Jacquard', 'Lawn', 'Cambric', 'Cotton', 'Silk', 'CVC - Chief Value Cotton', 'Polyester', 'Linen', 'Dobby'];
   PRODUCTCATEGORYs: string[] = ['Ladies Kurti', '2 Piece Stitched', '3 Piece Stitched', 'Girls 3 Piece', 'Teens Kurti', 'Kurta Pajama/Trouser', 'Teens 3 Piece', 'Infant Kameez Shalwar', 'Women Footwear', 'Boys Kameez Shalwar'];
+  FITTYPEs: string[] = ['Regular Fit', 'Smart Fit'];
 
   constructor() { }
 
