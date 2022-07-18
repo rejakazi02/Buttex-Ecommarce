@@ -84,6 +84,40 @@
         </mat-expansion-panel>
       </mat-accordion>
 
+      <!-- VOLUME section  -->
+
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> VOLUME </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <mat-radio-button class="example-radio-button" *ngFor="let VOLUME of VOLUMEs" [value]="VOLUMEs">
+            {{ VOLUME }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
+
+      <!-- COLLECTION section  -->
+
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> COLLECTION </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <mat-radio-button class="example-radio-button" *ngFor="let COLLECTION of COLLECTIONs" [value]="COLLECTIONs">
+            {{ COLLECTION }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
 
     </div>
   </div>
