@@ -119,6 +119,23 @@
       </mat-accordion>
 
 
+      <!-- FABRIC section  -->
+
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> FABRIC </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <mat-radio-button class="example-radio-button" *ngFor="let FABRIC of FABRICs" [value]="FABRICs">
+            {{ FABRIC }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
     </div>
   </div>
 

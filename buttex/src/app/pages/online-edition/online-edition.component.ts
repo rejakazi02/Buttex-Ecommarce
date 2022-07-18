@@ -19,6 +19,7 @@ export class OnlineEditionComponent implements OnInit {
   ColorFamilys: string[] = ['#cc4400', '#ADD8E6', '#ff7733', '#932f06', '#36e62e', '#8993c1', '#ba3c2a', '#dd628b', '#803355', '#23039e'];
   VOLUMEs: string[] = ['Volume 6 2020', 'Volume 2 2021', 'Volume 3 2021', 'Volume 4 2021', 'Volume 5 2021', 'Volume 2 2022', 'Volume 3 2022'];
   COLLECTIONs: string[] = ['Special Edition Collection', 'Winter Collection 2020', 'The Eid Edit 21', 'The Eid Edit 21 - II', 'Mid Summer 21', 'Winter Collection 21', 'Eid Luxe 22', 'Eid Trends 22'];
+  FABRICs: string[] = ['Chiffon', 'Jacquard', 'Lawn', 'Cambric', 'Cotton', 'Silk', 'CVC - Chief Value Cotton', 'Polyester', 'Linen', 'Dobby'];
 
   constructor() { }
 
