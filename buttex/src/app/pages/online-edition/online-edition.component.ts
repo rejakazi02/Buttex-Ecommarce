@@ -14,6 +14,8 @@ export class OnlineEditionComponent implements OnInit {
 
   Categorys: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
   Editions: string[] = ['Online Edition (754)'];
+  WearTypes: string[] = ['Casual/Plain', 'Semi-Formal', 'Formal'];
+  DESIGNs: string[] = ['Cambric Shirt With'];
 
   constructor() { }
 
