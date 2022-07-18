@@ -65,6 +65,26 @@
       </mat-accordion>
 
 
+      <!-- color section -->
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> Color Family  </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <!-- <mat-radio-button class="example-radio-button" *ngFor="let DESIGN of DESIGNs" [value]="DESIGNs">
+            {{ DESIGN }} <br> Cambric Trouser
+          </mat-radio-button> -->
+          <div class="colorFamilly">
+            <p class="colorFamillyP" *ngFor="let colorFamilly of ColorFamilys" style="background-color: {{colorFamilly}};"></p>
+
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
     </div>
   </div>
 

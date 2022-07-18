@@ -16,6 +16,7 @@ export class OnlineEditionComponent implements OnInit {
   Editions: string[] = ['Online Edition (754)'];
   WearTypes: string[] = ['Casual/Plain', 'Semi-Formal', 'Formal'];
   DESIGNs: string[] = ['Cambric Shirt With'];
+  ColorFamilys: string[] = ['#cc4400', '#ADD8E6', '#ff7733', '#932f06', '#36e62e', '#8993c1', '#ba3c2a', '#dd628b', '#803355', '#23039e'];
 
   constructor() { }
 
