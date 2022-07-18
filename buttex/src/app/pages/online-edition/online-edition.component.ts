@@ -12,7 +12,8 @@ export class OnlineEditionComponent implements OnInit {
 
   panelOpenState = false;
 
-  Category: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
+  Categorys: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
+  Editions: string[] = ['Online Edition (754)'];
 
   constructor() { }
 

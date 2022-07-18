@@ -2,6 +2,9 @@
   <div class="online-sidebar-container">
     <div class="sidenav">
       <h2>SHOPPING OPTIONS</h2>
+
+      <!-- Category section  -->
+
       <hr />
       <mat-accordion>
         <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
@@ -10,11 +13,28 @@
           </mat-expansion-panel-header>
           <hr />
 
-          <mat-radio-button class="example-radio-button" *ngFor="let Category of Category" [value]="Category">
+          <mat-radio-button class="example-radio-button" *ngFor="let Category of Categorys" [value]="Category">
             {{ Category }}
           </mat-radio-button>
         </mat-expansion-panel>
       </mat-accordion>
+
+      <!-- Edition section  -->
+      <hr />
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header class="matPanelTitle">
+            <mat-panel-title> Edition </mat-panel-title>
+          </mat-expansion-panel-header>
+          <hr />
+
+          <mat-radio-button class="example-radio-button" *ngFor="let Edition of Editions" [value]="Editions">
+            {{ Edition }}
+          </mat-radio-button>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
     </div>
   </div>
 
