@@ -22,6 +22,8 @@ export class OnlineEditionComponent implements OnInit {
   FABRICs: string[] = ['Chiffon', 'Jacquard', 'Lawn', 'Cambric', 'Cotton', 'Silk', 'CVC - Chief Value Cotton', 'Polyester', 'Linen', 'Dobby'];
   PRODUCTCATEGORYs: string[] = ['Ladies Kurti', '2 Piece Stitched', '3 Piece Stitched', 'Girls 3 Piece', 'Teens Kurti', 'Kurta Pajama/Trouser', 'Teens 3 Piece', 'Infant Kameez Shalwar', 'Women Footwear', 'Boys Kameez Shalwar'];
   FITTYPEs: string[] = ['Regular Fit', 'Smart Fit'];
+  Sizes: string[] = ['02', '03','04', '05','06', '07','08', '09','10', '11','12', '13','14', '15','16', '17', 'S','L', 'M','XL', 'XXL'];
+
 
   constructor() { }
 

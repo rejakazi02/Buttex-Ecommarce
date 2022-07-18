@@ -122,7 +122,15 @@
    padding-top: 120px;
    margin-left: 10px;
    overflow-y: scroll;
- }
+  }
+
+//  .sidenav::after {
+//   overflow: hidden;
+//  }
+//  .sidenav::before {
+//   overflow: hidden;
+//  }
+
 
  /* Style the sidenav links and the dropdown button */
  .sidenav a, .dropdown-btn {
@@ -293,11 +301,20 @@ visibility: visible;
 
  .colorFamillyP{
   border-radius: 50%;
-  // background-color: #000000;
-  // color: #f0f0f0;
+  background-color: #f0f0f0;
+  color: #949494;
   width: 23px;
   height: 23px;
 
   margin-left: 0px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+
+.colorFamillyP:hover{
+border: 2px solid black;
 
 }
