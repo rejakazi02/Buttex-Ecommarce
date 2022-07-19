@@ -75,7 +75,8 @@
 
         gap: 20px;
         height: 100%;
-
+        gap: 20px;
+        height: 100%;
      }
 
      #item-0 {
@@ -112,7 +113,8 @@
   .sidenav {
    height: 500px;
    width: 245px;
-   position: fixed;
+   position: sticky;
+
    z-index: 1;
    top: 80;
    left: 0;
@@ -121,7 +123,7 @@
    // overflow-x: hidden;
    padding-top: 120px;
    margin-left: 10px;
-   overflow-y: scroll;
+  //  overflow: auto;
   }
 
 //  .sidenav::after {
