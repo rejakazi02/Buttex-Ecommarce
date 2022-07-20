@@ -110,18 +110,32 @@
   }
 
 
+
+
+  .online-container{
+    position: relative;
+  }
+.online-sidebar-container{
+
+  position: sticky;
+    top: 0;
+    z-index: 100;
+    // overflow: auto;
+    z-index: 1;
+    // top: 80;
+}
   .sidenav {
    height: 500px;
    width: 245px;
-   position: sticky;
+  //  position: sticky;
 
    z-index: 1;
    top: 80;
-   left: 0;
-   color: black;
-   // background-color: #111;
-   // overflow-x: hidden;
-   padding-top: 120px;
+  //  left: 0;
+  //  color: black;
+  //  // background-color: #111;
+  //  // overflow-x: hidden;
+  //  padding-top: 120px;
    margin-left: 10px;
   //  overflow: auto;
   }
@@ -159,6 +173,8 @@
    margin-left: 200px; /* Same as the width of the sidenav */
    font-size: 20px; /* Increased text to enable scrolling */
    padding: 0px 10px;
+
+   margin-top: -530px;
  }
 
  /* Add an active class to the active dropdown button */
