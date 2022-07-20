@@ -4,14 +4,17 @@ import { MakeupComponent } from './makeup.component';
 
 import { MakeupRoutingModule } from './makeup-routing.module';
 
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatRadioModule} from '@angular/material/radio';
 @NgModule({
   declarations: [
     MakeupComponent
   ],
   imports: [
     CommonModule,
-    MakeupRoutingModule
+    MakeupRoutingModule,
+    MatExpansionModule,
+    MatRadioModule
   ]
 })
 export class MakeupModule { }

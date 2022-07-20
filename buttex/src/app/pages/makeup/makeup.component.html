@@ -4,7 +4,200 @@
 <div class="fraMainDiv">
 
   <div class="sideNavMenu">
-    ddd
+    <div class="online-sidebar-container">
+      <div class="sidenav">
+        <h2>SHOPPING OPTIONS</h2>
+
+        <!-- Category section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> Category </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let Category of Categorys" [value]="Category">
+              {{ Category }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <!-- Edition section  -->
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> Edition </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let Edition of Editions" [value]="Editions">
+              {{ Edition }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <!-- Wear Type section  -->
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> Wear Type </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let WearType of WearTypes" [value]="WearTypes">
+              {{ WearType }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <!-- DESIGN section  -->
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> DESIGN </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let DESIGN of DESIGNs" [value]="DESIGNs">
+              {{ DESIGN }} <br> Cambric Trouser
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+        <!-- color section -->
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> Color Family  </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <!-- <mat-radio-button class="example-radio-button" *ngFor="let DESIGN of DESIGNs" [value]="DESIGNs">
+              {{ DESIGN }} <br> Cambric Trouser
+            </mat-radio-button> -->
+            <div class="colorFamilly">
+              <p class="colorFamillyP" *ngFor="let colorFamilly of ColorFamilys" style="background-color: {{colorFamilly}};"></p>
+
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <!-- VOLUME section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> VOLUME </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let VOLUME of VOLUMEs" [value]="VOLUMEs">
+              {{ VOLUME }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+
+        <!-- COLLECTION section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> COLLECTION </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let COLLECTION of COLLECTIONs" [value]="COLLECTIONs">
+              {{ COLLECTION }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+        <!-- FABRIC section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> FABRIC </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let FABRIC of FABRICs" [value]="FABRICs">
+              {{ FABRIC }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+        <!-- PRODUCT CATEGORY section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> PRODUCT CATEGORY </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let PRODUCTCATEGORY of PRODUCTCATEGORYs" [value]="PRODUCTCATEGORYs">
+              {{ PRODUCTCATEGORY }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+        <!-- FIT TYPE section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> FIT TYPE</mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <mat-radio-button class="example-radio-button" *ngFor="let FITTYPE of FITTYPEs" [value]="FITTYPEs">
+              {{ FITTYPE }}
+            </mat-radio-button>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+        <!-- Size section  -->
+
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header class="matPanelTitle">
+              <mat-panel-title> SIZE  </mat-panel-title>
+            </mat-expansion-panel-header>
+            <hr />
+
+            <!-- <mat-radio-button class="example-radio-button" *ngFor="let DESIGN of DESIGNs" [value]="DESIGNs">
+              {{ DESIGN }} <br> Cambric Trouser
+            </mat-radio-button> -->
+            <div class="colorFamilly">
+              <p class="colorFamillyP" *ngFor="let Size of Sizes">{{Size}}</p>
+
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+      </div>
+    </div>
   </div>
   <div class="productDivMain">
    <div class="fraCardDiv">
