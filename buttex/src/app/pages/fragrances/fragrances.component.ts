@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FragrancesComponent implements OnInit {
 
+  panelOpenState = false;
+
+  Categorys: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
+  Editions: string[] = ['Online Edition (754)'];
+  WearTypes: string[] = ['Casual/Plain', 'Semi-Formal', 'Formal'];
+  DESIGNs: string[] = ['Cambric Shirt With'];
+  ColorFamilys: string[] = ['#cc4400', '#ADD8E6', '#ff7733', '#932f06', '#36e62e', '#8993c1', '#ba3c2a', '#dd628b', '#803355', '#23039e'];
+  VOLUMEs: string[] = ['Volume 6 2020', 'Volume 2 2021', 'Volume 3 2021', 'Volume 4 2021', 'Volume 5 2021', 'Volume 2 2022', 'Volume 3 2022'];
+  COLLECTIONs: string[] = ['Special Edition Collection', 'Winter Collection 2020', 'The Eid Edit 21', 'The Eid Edit 21 - II', 'Mid Summer 21', 'Winter Collection 21', 'Eid Luxe 22', 'Eid Trends 22'];
+  FABRICs: string[] = ['Chiffon', 'Jacquard', 'Lawn', 'Cambric', 'Cotton', 'Silk', 'CVC - Chief Value Cotton', 'Polyester', 'Linen', 'Dobby'];
+  PRODUCTCATEGORYs: string[] = ['Ladies Kurti', '2 Piece Stitched', '3 Piece Stitched', 'Girls 3 Piece', 'Teens Kurti', 'Kurta Pajama/Trouser', 'Teens 3 Piece', 'Infant Kameez Shalwar', 'Women Footwear', 'Boys Kameez Shalwar'];
+  FITTYPEs: string[] = ['Regular Fit', 'Smart Fit'];
+  Sizes: string[] = ['02', '03','04', '05','06', '07','08', '09','10', '11','12', '13','14', '15','16', '17', 'S','L', 'M','XL', 'XXL'];
+
+
   constructor() { }
 
   ngOnInit(): void {

@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { FragrancesRoutingModule } from './fragrances-routing.module';
 import { FragrancesComponent } from './fragrances.component';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,9 @@ import { FragrancesComponent } from './fragrances.component';
   ],
   imports: [
     CommonModule,
-    FragrancesRoutingModule
+    FragrancesRoutingModule,
+    MatExpansionModule,
+    MatRadioModule
   ]
 })
 export class FragrancesModule { }
